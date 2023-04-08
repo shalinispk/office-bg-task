@@ -1,0 +1,112 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+.bg{
+    background: linear-gradient(#10101342,#01010196),url(../image/officebg.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.fd-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:90%;
+	margin:auto;
+	color:white;
+}
+.flex{
+	width:20%;
+}
+.div2 ul{
+	display:flex;
+	list-style:none;
+
+}
+.div2{
+	width:60%;
+}
+.div2 ul li{
+	padding:10px;
+}
+.div3{
+	    display: contents;
+}
+.fd-menu a{
+	text-decoration:none;
+	color:white;
+}
+.home-menu{
+	text-decoration:underline !important;
+}
+li {
+ display: block;
+ transition-duration: 0.5s;
+}
+
+li:hover {
+  cursor: pointer;
+  color:pink;
+  background-color:green;
+  border-radius:10px;
+  font-weight:bold;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+
+
+
+
+.container{
+	text-align: center;
+    padding: 150px;
+    color: white;
+}
+.plg{
+	font-size:50px;
+}
+.mpara{
+	padding-bottom:45px;
+}
+.para{
+	font-size:30px;
+	padding:10px 0;
+}
+.pose{
+	    position: absolute;
+    top: 35%;
+    left: 24%;
+}
+.btn-text{
+	padding:5px 15px;
+}
+.wv-icon{
+	padding:20px;
+}
+.gets{
+	color:pink;
+	background-color:red;
+}
